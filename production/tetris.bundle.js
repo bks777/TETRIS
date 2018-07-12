@@ -63,7 +63,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "70c516d2fcd605eab46e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "242d87e7036cf12bcc72"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -3083,9 +3083,9 @@ module.exports = function update(currentHash, options) {
 
 /***/ }),
 
-/***/ "./node_modules/webpack-hot-client/client/index.js?d69091f3-7221-4eeb-846e-5ef51fb8a2c7":
+/***/ "./node_modules/webpack-hot-client/client/index.js?e1bc8725-2eba-4e18-bf66-7c9303646cca":
 /*!************************************************************************!*\
-  !*** (webpack)-hot-client/client?d69091f3-7221-4eeb-846e-5ef51fb8a2c7 ***!
+  !*** (webpack)-hot-client/client?e1bc8725-2eba-4e18-bf66-7c9303646cca ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -3824,7 +3824,7 @@ var Loader = function (_PIXI$loaders$Loader) {
             var _this2 = this;
 
             for (var i = 0; i < this._config.length; i++) {
-                _get(Loader.prototype.__proto__ || Object.getPrototypeOf(Loader.prototype), 'add', this).call(this, this._config[i].name, this._config[i].path);
+                _get(Loader.prototype.__proto__ || Object.getPrototypeOf(Loader.prototype), 'add', this).call(this, this._config[i].name, this._config[i].path, { crossOrigin: true });
             }
             _get(Loader.prototype.__proto__ || Object.getPrototypeOf(Loader.prototype), 'load', this).call(this, function (loader, resources) {
                 var images = {};
@@ -5440,12 +5440,12 @@ module.exports = __webpack_require__(/*! ./sources/index.js */"./sources/index.j
 
 /***/ 1:
 /*!***********************************************************************************************!*\
-  !*** multi webpack-hot-client/client?d69091f3-7221-4eeb-846e-5ef51fb8a2c7 ./sources/index.js ***!
+  !*** multi webpack-hot-client/client?e1bc8725-2eba-4e18-bf66-7c9303646cca ./sources/index.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! webpack-hot-client/client?d69091f3-7221-4eeb-846e-5ef51fb8a2c7 */"./node_modules/webpack-hot-client/client/index.js?d69091f3-7221-4eeb-846e-5ef51fb8a2c7");
+__webpack_require__(/*! webpack-hot-client/client?e1bc8725-2eba-4e18-bf66-7c9303646cca */"./node_modules/webpack-hot-client/client/index.js?e1bc8725-2eba-4e18-bf66-7c9303646cca");
 module.exports = __webpack_require__(/*! ./sources/index.js */"./sources/index.js");
 
 
