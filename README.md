@@ -2,6 +2,8 @@
 * ES6
 * PIXI.JS
 
+#DEMO --> https://bks777.github.io/tetris/
+
 # Development Environment
 * Babel 
 * WebPack 
