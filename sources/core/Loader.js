@@ -17,7 +17,7 @@ export default class Loader extends PIXI.loaders.Loader{
      */
     startLoading(cb){
         for(let i = 0; i < this._config.length; i++){
-            super.add(this._config[i].name, this._config[i].path)
+            super.add(this._config[i].name, this._config[i].path, { crossOrigin: true })
         }
         super.load((loader, resources)=>{
             let images = {};
