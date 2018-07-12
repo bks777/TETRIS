@@ -29,7 +29,7 @@ module.exports = {
         new WriteFilePlugin
     ],
 
-    mode: 'development',
+    mode: 'production',
     devtool: 'source-map'
 };
 
