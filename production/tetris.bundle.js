@@ -63,7 +63,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a26bd666ec1a9c58acb0"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "70c516d2fcd605eab46e"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -3083,9 +3083,9 @@ module.exports = function update(currentHash, options) {
 
 /***/ }),
 
-/***/ "./node_modules/webpack-hot-client/client/index.js?c53c74c9-7db6-4cf7-94f2-b0fb11429cba":
+/***/ "./node_modules/webpack-hot-client/client/index.js?d69091f3-7221-4eeb-846e-5ef51fb8a2c7":
 /*!************************************************************************!*\
-  !*** (webpack)-hot-client/client?c53c74c9-7db6-4cf7-94f2-b0fb11429cba ***!
+  !*** (webpack)-hot-client/client?d69091f3-7221-4eeb-846e-5ef51fb8a2c7 ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -3470,7 +3470,7 @@ module.exports = {"name":"Tetris","width":1920,"height":1080};
 /*! exports provided: images, default */
 /***/ (function(module) {
 
-module.exports = {"images":[{"name":"block_blue","path":"../../resources/block_blue.jpg"},{"name":"block_cyan","path":"../../resources/block_cyan.jpg"},{"name":"block_green","path":"../../resources/block_green.jpg"},{"name":"block_orange","path":"../../resources/block_orange.jpg"},{"name":"block_pink","path":"../../resources/block_pink.jpg"},{"name":"block_yellow","path":"../../resources/block_yellow.jpg"},{"name":"block_violet","path":"../../resources/block_violet.jpg"},{"name":"end_button","path":"../../resources/BTN.png"},{"name":"field_back","path":"../../resources/field_back.png"}]};
+module.exports = {"images":[{"name":"block_blue","path":"resources/block_blue.jpg"},{"name":"block_cyan","path":"resources/block_cyan.jpg"},{"name":"block_green","path":"resources/block_green.jpg"},{"name":"block_orange","path":"resources/block_orange.jpg"},{"name":"block_pink","path":"resources/block_pink.jpg"},{"name":"block_yellow","path":"resources/block_yellow.jpg"},{"name":"block_violet","path":"resources/block_violet.jpg"},{"name":"end_button","path":"resources/BTN.png"},{"name":"field_back","path":"resources/field_back.png"}]};
 
 /***/ }),
 
@@ -5440,12 +5440,12 @@ module.exports = __webpack_require__(/*! ./sources/index.js */"./sources/index.j
 
 /***/ 1:
 /*!***********************************************************************************************!*\
-  !*** multi webpack-hot-client/client?c53c74c9-7db6-4cf7-94f2-b0fb11429cba ./sources/index.js ***!
+  !*** multi webpack-hot-client/client?d69091f3-7221-4eeb-846e-5ef51fb8a2c7 ./sources/index.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! webpack-hot-client/client?c53c74c9-7db6-4cf7-94f2-b0fb11429cba */"./node_modules/webpack-hot-client/client/index.js?c53c74c9-7db6-4cf7-94f2-b0fb11429cba");
+__webpack_require__(/*! webpack-hot-client/client?d69091f3-7221-4eeb-846e-5ef51fb8a2c7 */"./node_modules/webpack-hot-client/client/index.js?d69091f3-7221-4eeb-846e-5ef51fb8a2c7");
 module.exports = __webpack_require__(/*! ./sources/index.js */"./sources/index.js");
 
 
