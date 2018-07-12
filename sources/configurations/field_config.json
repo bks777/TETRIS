@@ -1,0 +1,81 @@
+{
+  "back_position": {
+    "x": 494,
+    "y": 0
+  },
+  "tetro_position": {
+    "x": 805,
+    "y": -93
+  },
+  "cell": {
+    "width": 31,
+    "height": 31
+  },
+  "rowsNumber": 23,
+  "colsNumber": 10,
+  "moveDelay": 40,
+  "states": [
+    "play",
+    "remove",
+    "game_over"
+  ],
+  "tetro_pull_length": 3,
+  "next_position": {
+    "x": 1240,
+    "y": 160,
+    "offsets_y": [
+      0,
+      140,
+      276
+    ]
+  },
+  "score": {
+    "x": 620,
+    "y": 330,
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": 40,
+      "fill": "0x000000",
+      "align": "center",
+      "fontWeight": "bold"
+    }
+  },
+  "end_round": {
+    "x": 805,
+    "y": 0,
+    "back": {
+      "width": 310,
+      "height": 620,
+      "color": "0x000000",
+      "alpha": 0.7
+    },
+    "button": {
+      "x": 31,
+      "y": 312,
+      "text": "PLAY AGAIN",
+      "style": {
+        "fontFamily": "Arial",
+        "fontSize": 32,
+        "fill": "0x000000",
+        "align": "center",
+        "fontWeight": "bold"
+      },
+      "text_offsets": {
+        "x": 29,
+        "y": 12
+      }
+    },
+    "label": {
+      "x": 34,
+      "y": 250,
+      "text": "GAME OVER",
+      "style": {
+        "fontFamily": "Arial",
+        "fontSize": 39,
+        "fill": "0x35bb8b",
+        "align": "center",
+        "fontWeight": "bold"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "images": [
+    {
+      "name": "block_blue",
+      "path": "../resources/block_blue.jpg"
+    },
+    {
+      "name": "block_cyan",
+      "path": "../resources/block_cyan.jpg"
+    },
+    {
+      "name": "block_green",
+      "path": "../resources/block_green.jpg"
+    },
+    {
+      "name": "block_orange",
+      "path": "../resources/block_orange.jpg"
+    },
+    {
+      "name": "block_pink",
+      "path": "../resources/block_pink.jpg"
+    },
+    {
+      "name": "block_yellow",
+      "path": "../resources/block_yellow.jpg"
+    },
+    {
+      "name": "block_violet",
+      "path": "../resources/block_violet.jpg"
+    },
+    {
+      "name": "end_button",
+      "path": "../resources/BTN.png"
+    },
+    {
+      "name": "field_back",
+      "path": "../resources/field_back.png"
+    }
+  ]
+}
